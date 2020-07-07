@@ -6,6 +6,7 @@ public class Fruit {
 	private Double price;
 	private String description;
 	
+	
 	public String getName() {
 		return name;
 	}
