@@ -5,7 +5,7 @@ public class Fruit {
 	private String name;
 	private Double price;
 	private String description;
-	
+	private String remark;
 	
 	public String getName() {
 		return name;
@@ -24,6 +24,12 @@ public class Fruit {
 	}
 	public void setDescription(String description) {
 		this.description = description;
+	}
+	public String getRemark() {
+		return remark;
+	}
+	public void setRemark(String remark) {
+		this.remark = remark;
 	}
 	
 	
