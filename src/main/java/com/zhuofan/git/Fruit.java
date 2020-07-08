@@ -6,6 +6,7 @@ public class Fruit {
 	private Double price;
 	private String description;
 	private String shape;
+	private Boolean result;//·µ»Ø½á¹û
 	
 	public String getName() {
 		return name;
@@ -30,6 +31,12 @@ public class Fruit {
 	}
 	public void setShape(String shape) {
 		this.shape = shape;
+	}
+	public Boolean getResult() {
+		return result;
+	}
+	public void setResult(Boolean result) {
+		this.result = result;
 	}
 	
 	
