@@ -5,7 +5,7 @@ public class Fruit {
 	private String name;
 	private Double price;
 	private String description;
-	
+	private String shape;
 	
 	public String getName() {
 		return name;
@@ -24,6 +24,12 @@ public class Fruit {
 	}
 	public void setDescription(String description) {
 		this.description = description;
+	}
+	public String getShape() {
+		return shape;
+	}
+	public void setShape(String shape) {
+		this.shape = shape;
 	}
 	
 	
