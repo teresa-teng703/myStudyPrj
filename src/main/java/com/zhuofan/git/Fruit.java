@@ -7,6 +7,7 @@ public class Fruit {
 	private String description;
 	private String shape;
 	private String remark;
+	private Boolean result;//·µ»Ø½á¹û
 	
 	public String getName() {
 		return name;
@@ -38,4 +39,11 @@ public class Fruit {
 	public void setRemark(String remark) {
 		this.remark = remark;
 	}
+	public Boolean getResult() {
+		return result;
+	}
+	public void setResult(Boolean result) {
+		this.result = result;
+	}
+	
 }
